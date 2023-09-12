@@ -1,0 +1,74 @@
+body {
+  background-color: #FFC8C8;
+}
+
+.fsjs-wrapper {
+  margin: 2em auto 0 auto;
+}
+
+h1 {
+  font-family: 'Actual Swash';
+  font-weight: 500 !important;
+  font-size: 6rem !important;
+}
+
+#wrapper .dk-selected,
+#wrapper .dk-select-options {
+  background-color: #FF9999 !important;
+  color: #3E4149;
+}
+
+#wrapper .dk-option-highlight {
+  background-color: #ff8989 !important;
+  color: #3E4149 !important;
+}
+
+#wrapper .rangeSlider__handle {
+  background: #FF9999;
+  border: 1px solid #3E4149;
+}
+
+#wrapper,
+#wrapper p {
+  background-color: #FFC8C8 !important;
+  color: #3E4149 !important;
+}
+
+#wrapper .rangeSlider {
+  position: relative;
+  background: #3E4149;
+}
+
+#wrapper .rangeSlider__fill {
+  background: #3E4149;
+  position: absolute;
+}
+
+#wrapper .fsjs-skin .fsjs-button,
+#wrapper .fsjs-skin .fsjs-block-type-buttongroup button,
+#wrapper .fsjs-skin .dk-selected,
+#wrapper .fsjs-skin .dk-select-options {
+  border: 1px solid #3E4149;
+}
+
+#wrapper .fsjs-skin .dk-selected:after {
+  border-left: 1px solid #3E4149;
+}
+
+#wrapper .fsjs-skin .rangeSlider {
+  background: #3E4149;
+}
+
+#wrapper .fsjs-block-type-textfield {
+  line-height: 1.1 !important;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+#wrapper .fsjs-skin .dk-selected:before {
+  top: 50%;
+  border: solid transparent;
+  border-width: 0.25em 0.25em 0;
+  border-top-color: #3E4149;
+  margin: -0.125em 0.5em 0 0;
+}

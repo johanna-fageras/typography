@@ -1,0 +1,74 @@
+body {
+  background-color: #0D1282;
+}
+
+.fsjs-wrapper {
+  margin: 2em auto 0 auto;
+}
+
+h1 {
+  font-family: 'Space Cowboy Sans';
+  font-weight: 500 !important;
+  font-size: 6rem !important;
+}
+
+#wrapper .dk-selected,
+.dk-select-options {
+  background-color: #D71313 !important;
+  color: #EEEDED;
+}
+
+#wrapper .dk-option-highlight {
+  background-color: #c60a0a !important;
+  color: #EEEDED !important;
+}
+
+#wrapper .rangeSlider__handle {
+  background: #D71313;
+  border: 1px solid #EEEDED;
+}
+
+#wrapper,
+#wrapper p {
+  background-color: #0D1282 !important;
+  color: #EEEDED !important;
+}
+
+#wrapper .rangeSlider {
+  position: relative;
+  background: #EEEDED;
+}
+
+#wrapper .rangeSlider__fill {
+  background: #EEEDED;
+  position: absolute;
+}
+
+#wrapper .fsjs-skin .fsjs-button,
+.fsjs-skin .fsjs-block-type-buttongroup button,
+#wrapper .fsjs-skin .dk-selected,
+#wrapper .fsjs-skin .dk-select-options {
+  border: 1px solid #EEEDED;
+}
+
+#wrapper .fsjs-skin .dk-selected:after {
+  border-left: 1px solid #EEEDED;
+}
+
+#wrapper .fsjs-skin .rangeSlider {
+  background: #EEEDED;
+}
+
+#wrapper .fsjs-block-type-textfield {
+  line-height: 1.1 !important;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+#wrapper .fsjs-skin .dk-selected:before {
+  top: 50%;
+  border: solid transparent;
+  border-width: 0.25em 0.25em 0;
+  border-top-color: #EEEDED;
+  margin: -0.125em 0.5em 0 0;
+}

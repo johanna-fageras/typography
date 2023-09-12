@@ -1,0 +1,74 @@
+body {
+  background-color: #D7FBE8;
+}
+
+.fsjs-wrapper {
+  margin: 2em auto 0 auto;
+}
+
+h1 {
+  font-family: 'Carabelle Script';
+  font-weight: 500 !important;
+  font-size: 5rem !important;
+}
+
+#wrapper .dk-selected,
+#wrapper .dk-select-options {
+  background-color: #9DF3C4 !important;
+  color: #1FAB89;
+}
+
+#wrapper .dk-option-highlight {
+  background-color: #7cefb0 !important;
+  color: #1FAB89 !important;
+}
+
+#wrapper .rangeSlider__handle {
+  background: #9DF3C4;
+  border: 1px solid #1FAB89;
+}
+
+#wrapper,
+#wrapper p {
+  background-color: #D7FBE8 !important;
+  color: #1FAB89 !important;
+}
+
+#wrapper .rangeSlider {
+  position: relative;
+  background: #1FAB89;
+}
+
+#wrapper .rangeSlider__fill {
+  background: #1FAB89;
+  position: absolute;
+}
+
+#wrapper .fsjs-skin .fsjs-button,
+#wrapper .fsjs-skin .fsjs-block-type-buttongroup button,
+#wrapper .fsjs-skin .dk-selected,
+#wrapper .fsjs-skin .dk-select-options {
+  border: 1px solid #1FAB89;
+}
+
+#wrapper .fsjs-skin .dk-selected:after {
+  border-left: 1px solid #1FAB89;
+}
+
+#wrapper .fsjs-skin .rangeSlider {
+  background: #1FAB89;
+}
+
+#wrapper .fsjs-block-type-textfield {
+  line-height: 1.1 !important;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+#wrapper .fsjs-skin .dk-selected:before {
+  top: 50%;
+  border: solid transparent;
+  border-width: 0.25em 0.25em 0;
+  border-top-color: #1FAB89;
+  margin: -0.125em 0.5em 0 0;
+}

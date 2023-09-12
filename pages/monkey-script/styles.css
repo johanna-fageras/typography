@@ -1,0 +1,74 @@
+body {
+  background-color: #FFFD8C;
+}
+
+.fsjs-wrapper {
+  margin: 2em auto 0 auto;
+}
+
+h1 {
+  font-family: 'Monkey Script';
+  font-weight: 500 !important;
+  font-size: 6rem !important;
+}
+
+#wrapper .dk-selected,
+#wrapper .dk-select-options {
+  background-color: #97FFF4 !important;
+  color: #6826db;
+}
+
+#wrapper .dk-option-highlight {
+  background-color: #4dfcea !important;
+  color: #6826db !important;
+}
+
+#wrapper .rangeSlider__handle {
+  background: #97FFF4;
+  border: 1px solid #6826db;
+}
+
+#wrapper,
+#wrapper p {
+  background-color: #FFFD8C !important;
+  color: #6826db !important;
+}
+
+#wrapper .rangeSlider {
+  position: relative;
+  background: #6826db;
+}
+
+#wrapper .rangeSlider__fill {
+  background: #6826db;
+  position: absolute;
+}
+
+#wrapper .fsjs-skin .fsjs-button,
+.fsjs-skin .fsjs-block-type-buttongroup button,
+#wrapper .fsjs-skin .dk-selected,
+#wrapper .fsjs-skin .dk-select-options {
+  border: 1px solid #6826db;
+}
+
+#wrapper .fsjs-skin .dk-selected:after {
+  border-left: 1px solid #6826db;
+}
+
+#wrapper .fsjs-skin .rangeSlider {
+  background: #6826db;
+}
+
+#wrapper .fsjs-block-type-textfield {
+  line-height: 1.1 !important;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+#wrapper .fsjs-skin .dk-selected:before {
+  top: 50%;
+  border: solid transparent;
+  border-width: 0.25em 0.25em 0;
+  border-top-color: #6826db;
+  margin: -0.125em 0.5em 0 0;
+}

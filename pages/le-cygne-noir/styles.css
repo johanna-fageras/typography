@@ -1,0 +1,74 @@
+body {
+  background-color: #F32424;
+}
+
+.fsjs-wrapper {
+  margin: 2em auto 0 auto;
+}
+
+h1 {
+  font-family: 'Le Cygne Noir';
+  font-weight: 400 !important;
+  font-size: 6rem !important;
+}
+
+#wrapper .dk-selected,
+#wrapper .dk-select-options {
+  background-color: #7c4ff7 !important;
+  color: #F2F2F2;
+}
+
+#wrapper .dk-option-highlight {
+  background-color: #703ef7 !important;
+  color: #F2F2F2 !important;
+}
+
+#wrapper .rangeSlider__handle {
+  background: #7c4ff7;
+  border: 1px solid #F2F2F2;
+}
+
+#wrapper,
+#wrapper p {
+  background-color: #F32424 !important;
+  color: #F2F2F2 !important;
+}
+
+#wrapper .rangeSlider {
+  position: relative;
+  background: #F2F2F2;
+}
+
+#wrapper .rangeSlider__fill {
+  background: #F2F2F2;
+  position: absolute;
+}
+
+#wrapper .fsjs-skin .fsjs-button,
+#wrapper .fsjs-skin .fsjs-block-type-buttongroup button,
+#wrapper .fsjs-skin .dk-selected,
+#wrapper .fsjs-skin .dk-select-options {
+  border: 1px solid #F2F2F2;
+}
+
+#wrapper .fsjs-skin .dk-selected:after {
+  border-left: 1px solid #F2F2F2;
+}
+
+#wrapper .fsjs-skin .rangeSlider {
+  background: #F2F2F2;
+}
+
+#wrapper .fsjs-block-type-textfield {
+  line-height: 1.1 !important;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+#wrapper .fsjs-skin .dk-selected:before {
+  top: 50%;
+  border: solid transparent;
+  border-width: 0.25em 0.25em 0;
+  border-top-color: #f2f2f2;
+  margin: -0.125em 0.5em 0 0;
+}

@@ -1,9 +1,10 @@
 body {
   background-color: #FFFD8C;
+  border: solid 15px #6826db;
 }
 
 .fsjs-wrapper {
-  margin: 2em auto 0 auto;
+  margin: 1em auto 0 auto;
 }
 
 h1 {
